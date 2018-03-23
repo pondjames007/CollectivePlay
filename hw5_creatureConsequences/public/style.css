@@ -1,0 +1,33 @@
+body {
+  margin : 0px
+
+}
+
+.disabled {
+  opacity: 0.1;
+  z-index: 0;
+}
+
+.rectangle{
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+}
+#rect0{
+    background:red;
+}
+#rect1{
+    background:blue;
+}
+#rect2{
+    background:yellow;
+}
+#rect3{
+    background:green;
+}
+
+.slider{
+    position: absolute;
+    visibility: hidden;
+    z-index:2;
+}
